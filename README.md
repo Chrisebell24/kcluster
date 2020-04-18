@@ -6,21 +6,21 @@ This is project is a class that allows for a combination of clustering numeric a
 
 Run the following to install: 
 
-'''
+```python
 pip install kcluster
-'''
+```
 
 ## Usage
 
-'''
+```
 from kcluster import KCluster
 model = KCluster()
 model.fit(X)
-'''
+```
 
 ## Development kcluster
 
 To install kcluster, along with the tools you need to develop and run tests, run the following in your virtualend:
-'''bash
+```bash
 $ pip install -e .[dev]
-'''
+```
