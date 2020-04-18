@@ -17,7 +17,7 @@ setup(
         "Operating System :: OS Independent",
     ],
     name='kcluster',
-    version='0.0.1',
+    version='0.0.2',
     description='Cluster using a combined kmeans, kmedians, and kmodes. Allows weightings',
     long_description=long_description,
     long_description_content_type="text/markdown",

@@ -14,9 +14,7 @@ pip install kcluster
 
 '''python
 from kcluster import KCluster
-
 model = KCluster()
-# example that uses kmodes for categorical & kmeans for quantitative
 model.fit(X)
 '''
 
