@@ -6,13 +6,13 @@ This is project is a class that allows for a combination of clustering numeric a
 
 Run the following to install: 
 
-'''python
+'''
 pip install kcluster
 '''
 
 ## Usage
 
-'''python
+'''
 from kcluster import KCluster
 model = KCluster()
 model.fit(X)
