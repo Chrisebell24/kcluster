@@ -21,7 +21,7 @@ setup(
     description='Cluster using a combined kmeans, kmedians, and kmodes. Allows weightings',
     long_description=long_description,
     long_description_content_type="text/markdown",
-    py_modules=['kcluster'],
+    py_modules=['kcluster', '_util_cluster', '_util_kcluster'],
     package_dir={'': 'src'},
     install_requires = [
         "pandas>=0.25.1",
